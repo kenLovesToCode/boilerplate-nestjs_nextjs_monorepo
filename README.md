@@ -16,3 +16,14 @@ $ touch tsconfig.base.json
 # add deps (server | client)
 $ pnpm add @package-name --filter=server
 ```
+
+#### Railway deployment
+
+```bash
+# -> 'Empty Project'
+# -> Add a service
+# backend
+# -> ... settings ... 'Watch paths' = /apps/server/** -> generate domain
+# frontend
+# -> new -> github -> ... settings ... 'Watch paths' = /apps/client/** -> generate domain
+```
