@@ -12,7 +12,12 @@ const ClientSide = () => {
         });
     }, []);
 
-    return <div>I am a client side only component - {greeting}</div>;
+    return (
+        <div>
+            I am a client side only component - {greeting}
+            <h1>backend: {process.env.BACKEND}</h1>
+        </div>
+    );
 };
 
 export default ClientSide;
