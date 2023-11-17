@@ -1,4 +1,4 @@
-# NestJS | Next.js | Monorepo
+# NestJS | Next.js | tRPC | Monorepo
 
 #### Setup
 
